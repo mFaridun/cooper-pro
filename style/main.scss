@@ -27,8 +27,8 @@ header {
   color: #ffffff;
 }
 
-// .nav__icons {
-//   margin-top: -8px;
+// .icon-link {
+//   width: 40px;
 // }
 
 // .header {
@@ -104,7 +104,13 @@ header {
   border-left: none;
 }
 
-// @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
+  .icons-1 {
+    display: none;
+  }
+}
+
+// @media only screen and (min-width: 576px) {
 //   header {
 //     position: relative;
 //     background-image: url("../images/BG-2.png");
@@ -115,11 +121,25 @@ header {
 //   }
 // }
 
-// @media only screen and (min-width: 1400px) {
-//   .down__right {
-//   //   padding: 10px 68px 10px 5px;
-//   //   left: 93.5%;
-//   //   top: 50%;
+// @media only screen and (min-width: 768px) {
+//   header {
+//     position: relative;
+//     background-image: url("../images/BG-2.png");
+//     height: 100vh;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+// }
+
+// @media only screen and (min-width: 992px) {
+//   .nav__center {
+//     display: none;
+//     order: 2;
+//   }
+
+//   .nav__right {
+//     order: 1;
 //   }
 // }
 
@@ -136,13 +156,10 @@ header {
 
 // }
 
-// @media only screen and (min-width: 992px) {
-//   .nav__center {
-//     display: none;
-//     order: 2;
-//   }
-
-//   .nav__right {
-//     order: 1;
+// @media only screen and (min-width: 1400px) {
+//   .down__right {
+//   //   padding: 10px 68px 10px 5px;
+//   //   left: 93.5%;
+//   //   top: 50%;
 //   }
 // }

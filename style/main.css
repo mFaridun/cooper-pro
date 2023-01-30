@@ -45,4 +45,10 @@ header {
   color: #fff;
   border: 1px #fff solid;
   border-left: none;
+}
+
+@media only screen and (max-width: 320px) {
+  .icons-1 {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
