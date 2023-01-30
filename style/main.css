@@ -25,6 +25,49 @@ header {
   color: #ffffff;
 }
 
+.header .contend {
+  margin-top: 149px;
+}
+.header .contend .brand__name {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 74.9%;
+  color: #ffffff;
+}
+.header .contend h3 {
+  margin-top: 100px;
+  font-size: 50px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+.header .contend p {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+.header .contend p b {
+  margin-left: 109px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+.header .contend .btn {
+  margin-top: 41px;
+  background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+  padding: 16px 130px;
+  color: #ffffff;
+}
+.header .contend .rectangle {
+  width: 12px;
+  height: 12px;
+  margin-top: 71px;
+}
+.header .contend .rectangle__1 {
+  background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+}
+
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
   left: 10px;
