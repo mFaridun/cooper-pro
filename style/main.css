@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background-image: url("../images/BG.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  width: 160px;
+  height: 43px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+
+.swiper-button-next::after {
+  padding: 10px 19px 10px 10px;
+  font-size: 2rem;
+  color: #fff;
+  border: 1px #fff solid;
+  border-right: none;
+}
+
+.swiper-button-prev::after {
+  padding: 10px 10px 10px 19px;
+  font-size: 2rem;
+  color: #fff;
+  border: 1px #fff solid;
+  border-left: none;
+}/*# sourceMappingURL=main.css.map */

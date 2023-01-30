@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background-image: url("../images/BG.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  img {
+    width: 160px;
+    height: 43px;
+  }
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+
+// .nav__icons {
+//   margin-top: -8px;
+// }
+
+// .header {
+//   .contend {
+//     margin-top: 149px;
+
+//     .brand__name {
+//       font-weight: 400;
+//       font-size: 100px;
+//       line-height: 74.9%;
+//       color: #ffffff;
+//     }
+
+//     h3 {
+//       margin-top: 100px;
+//       font-size: 50px;
+//       line-height: 96.4%;
+//       color: #ffffff;
+//     }
+
+//     p {
+//       margin-top: 40px;
+//       font-size: 30px;
+//       line-height: 96.4%;
+//       color: #ffffff;
+
+//       b {
+//         margin-left: 109px;
+//         font-weight: 800;
+//         font-size: 30px;
+//         line-height: 96.4%;
+//         color: #ffffff;
+//       }
+//     }
+//     .btn {
+//       margin-top: 41px;
+//       background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+//       padding: 16px 130px;
+//       color: #ffffff;
+//     }
+
+//     .rectangle {
+//       width: 12px;
+//       height: 12px;
+//       margin-top: 71px;
+//     }
+
+//     .rectangle__1 {
+//       background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+//     }
+//   }
+// }
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+
+.swiper-button-next::after {
+  padding: 10px 19px 10px 10px;
+  font-size: 2rem;
+  color: #fff;
+  border: 1px #fff solid;
+  border-right: none;
+}
+
+.swiper-button-prev::after {
+  padding: 10px 10px 10px 19px;
+  font-size: 2rem;
+  color: #fff;
+  border: 1px #fff solid;
+  border-left: none;
+}
+
+// @media only screen and (max-width: 768px) {
+//   header {
+//     position: relative;
+//     background-image: url("../images/BG-2.png");
+//     height: 100vh;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+// }
+
+// @media only screen and (min-width: 1400px) {
+//   .down__right {
+//   //   padding: 10px 68px 10px 5px;
+//   //   left: 93.5%;
+//   //   top: 50%;
+//   }
+// }
+
+// @media only screen and (min-width: 1200px) {
+//   .down__left {
+//     padding: 10px 5px 10px 40px;
+//     left: 0%;
+//   }
+
+//   .down__right {
+//     padding: 10px 40px 10px 5px;
+//     left: auto;
+//   }
+
+// }
+
+// @media only screen and (min-width: 992px) {
+//   .nav__center {
+//     display: none;
+//     order: 2;
+//   }
+
+//   .nav__right {
+//     order: 1;
+//   }
+// }
