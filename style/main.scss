@@ -14,10 +14,15 @@ header {
 }
 
 .logo {
+  margin-top: 50px;
   img {
     width: 160px;
     height: 43px;
   }
+}
+
+.navbar {
+  margin-top: 55px;
 }
 
 .nav-link {
@@ -25,6 +30,17 @@ header {
   font-size: 16px;
   line-height: 96.4%;
   color: #ffffff;
+}
+
+.icon-menu {
+  margin-top: 2.5rem;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    padding: 10px 30px 10px 10px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
 }
 
 .header {
@@ -100,62 +116,83 @@ header {
   border-left: none;
 }
 
-@media only screen and (max-width: 320px) {
+
+@media only screen and (max-width: 1920px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1399.98px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+//   .logo {
+//     margin-top: 46px;
+// }
+
+  .icons {
+    // order: 1;
+  }
+
+  .icon-link {
+    a {
+      padding: 0.3rem 0.8rem;
+    }
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  header {
+    background-image: url("../images/BG-2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nsn {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .logo {
+    margin-top: 42px;
+  }
+
+  .menu {
+    display: block;
+  }
+
   .icons-1 {
     display: none;
   }
 }
 
-// @media only screen and (min-width: 576px) {
-//   header {
-//     position: relative;
-//     background-image: url("../images/BG-2.png");
-//     height: 100vh;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//   }
-// }
+@media only screen and (max-width: 320px) {
+  .icons-1 {
+    display: none;
+  }
 
-// @media only screen and (min-width: 768px) {
-//   header {
-//     position: relative;
-//     background-image: url("../images/BG-2.png");
-//     height: 100vh;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//   }
-// }
-
-// @media only screen and (min-width: 992px) {
-//   .nav__center {
-//     display: none;
-//     order: 2;
-//   }
-
-//   .nav__right {
-//     order: 1;
-//   }
-// }
-
-// @media only screen and (min-width: 1200px) {
-//   .down__left {
-//     padding: 10px 5px 10px 40px;
-//     left: 0%;
-//   }
-
-//   .down__right {
-//     padding: 10px 40px 10px 5px;
-//     left: auto;
-//   }
-
-// }
-
-// @media only screen and (min-width: 1400px) {
-//   .down__right {
-//   //   padding: 10px 68px 10px 5px;
-//   //   left: 93.5%;
-//   //   top: 50%;
-//   }
-// }
+  .menu {
+    display: block;
+  }
+}
